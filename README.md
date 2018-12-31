@@ -12,6 +12,6 @@ Web-Development (RBG Color Guessing Game)
 <img src="https://github.com/Jyotsna-Singh-16/Colour-Game/blob/master/Hard.png"/>
 <h4>WHEN YOU GET INCORRECT ANSWER (TRY AGAIN ALERT): </h4>
 <img src="https://github.com/Jyotsna-Singh-16/Colour-Game/blob/master/TryAgain.png"/>
-<h4>WHEN YOU GET CORRECT ANSWER (SUCCESS ALERT): & all boxs get the colour of answer colour</h4>
+<h4>WHEN YOU GET CORRECT ANSWER (SUCCESS ALERT) & all boxs get the colour of answer colour:</h4>
 <img src="https://github.com/Jyotsna-Singh-16/Colour-Game/blob/master/Corect.png"/>
 
