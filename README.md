@@ -7,9 +7,9 @@ Web-Development (RBG Color Guessing Game)
 <h3>You will see the following page on the screen (on clicking NEW COLORS): </h3>
 
 <h4>EASY LEVEL </h4>
-<img src=""/>
+<img src="https://github.com/Jyotsna-Singh-16/Colour-Game/blob/master/Easy.png"/>
 <h4>HARD LEVEL </h4>
-<img src=""/>
+<img src="https://github.com/Jyotsna-Singh-16/Colour-Game/blob/master/Hard.png"/>
 <h4>WHEN YOU GET INCORRECT ANSWER (TRY AGAIN ALERT) </h4>
 <img src=""/>
 <h4>WHEN YOU GET CORRECT ANSWER (SUCCESS ALERT) & all boxs get the colour of answer colour</h4>
