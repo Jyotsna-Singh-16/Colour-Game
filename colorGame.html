@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="Logo.ico" />
+        <title>Color Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+            
+            <div class="jumbotron">
+                <div class="container">
+                     <p>THE GREAT</p>
+                     <h2>RGB(<span class="red">0</span>, <span  class="green">0</span>, <span  class="blue">0</span>)</h2>
+                     <p>GUESSING GAME</p>
+                </div>  
+            </div>
+            
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <ul class="nav navbar-nav">
+                        <li><a id="change">NEW COLORS</a></li>
+                    </ul>  
+                    <ul class="nav navbar-nav navbar-right">
+                            <li><a id="clear">EASY</a></li>
+                            <li><a id="unclear">HARD</a></li>
+                    </ul>   
+                </div>   
+             </nav>
+
+             <div class="containerThumb">
+                    <div class="row">
+                            <div class="col-sm-4">
+                            <div class="thumbnail addColor " onclick="myFunction(0)"></div>
+                            </div>
+                            <div class="col-sm-4">
+                            <div class="thumbnail addColor " onclick="myFunction(1)"></div>
+                            </div>
+                            <div class="col-sm-4">
+                            <div class="thumbnail addColor " onclick="myFunction(2)"></div>
+                            </div>
+                    </div>
+                    <span>
+                    <div id="appear" class="row">
+                            <div class="col-sm-4">
+                            <div class="thumbnail addColor" onclick="myFunction(3)"></div>
+                            </div>
+                            <div class="col-sm-4">
+                            <div class="thumbnail addColor" onclick="myFunction(4)"></div>
+                            </div>
+                            <div class="col-sm-4">
+                            <div class="thumbnail addColor" onclick="myFunction(5)"></div>
+                            </div>
+                    </div></span>
+             </div>
+
+             <div style="display:none" id="correct" class="alert alert-success">
+                    <strong>Success!</strong> correct!!!
+                  </div>
+                  
+                  <div id="incorrect" style="display:none" class="alert alert-warning">
+                    <strong>Warning!</strong> Try again :-(
+                  </div>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

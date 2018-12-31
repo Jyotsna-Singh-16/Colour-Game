@@ -1,0 +1,65 @@
+.jumbotron{
+    background: rgb(48, 113, 150);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+p{
+    text-align: center;
+    line-height: 10px;
+    padding-top: 2%;
+ }
+
+h2{
+    text-align: center;
+    line-height: 20px;
+}
+
+.navbar{
+     margin-top: -40px;
+ }
+
+ .navbar-default .navbar-nav>li>a{
+     color:rgb(48, 113, 150);
+     font-weight: bold;
+ }
+
+ 
+ 
+ body{
+     background: black;
+ }
+ 
+ .container{
+     width: 510px;
+ }
+
+.thumbnail{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10%;
+}
+
+.col-sm-4 {
+    width: auto;
+    padding-left:0.5%; 
+}
+
+.row{
+    width: 550px;
+    margin:0px 510px; 
+  
+}
+
+.containerThumb{
+    margin-right: 500%;
+    margin-left: -4.5%;
+}
+
+ .inactive{
+    background:black;
+    border: 1px solid black;
+} 
+
